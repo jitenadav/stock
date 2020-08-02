@@ -11,7 +11,7 @@ from werkzeug.utils import secure_filename
 from flask_pymongo import PyMongo
 
 UPLOAD_FOLDER = './uploads'
-path = 'E:/SIH/Flask-ISRO/Flask_server/uploads/'
+path = 'E:/SIH/to_push_git/stock/uploads/'
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif','ppm'}
 
 app = Flask(__name__)
